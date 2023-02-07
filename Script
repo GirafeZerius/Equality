@@ -2460,11 +2460,7 @@ end)
 		local HA = Tab:AddHorizontalAlignment()
 		HA:AddButton("Execute", function()
 			loadstring(Console:Get())()
-				while true do  wait(1)
-	    if Console:Set("printindentity()") then
-	        Console:Set("you cant execute that, because its a script")
-	        end
-	    end
+			
 		end)
 		local HA1 = Tab1:AddHorizontalAlignment()
 			HA1:AddButton("Dex", function()
