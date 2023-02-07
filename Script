@@ -2460,7 +2460,9 @@ end)
 		local HA = Tab:AddHorizontalAlignment()
 		HA:AddButton("Execute", function()
 			loadstring(Console:Get())()
-			
+				
+	  
+	   
 		end)
 		local HA1 = Tab1:AddHorizontalAlignment()
 			HA1:AddButton("Dex", function()
