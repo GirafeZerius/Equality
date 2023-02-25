@@ -1,3 +1,5 @@
+-- https://raw.githubusercontent.com/GirafeZerius/Equality/main/Library
+
 --[[
 	ui-engine-v2
 	version 1.3a
@@ -2025,7 +2027,7 @@ end
 do -- Example UI
 	local Window = library:AddWindow("Equality ", {
 		main_color = Color3.fromRGB(255,165,0),
-		min_size = Vector2.new(1200, 600),
+		min_size = Vector2.new(505, 600),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
@@ -2464,6 +2466,18 @@ end)
 	  
 	   
 		end)
+			local HA1 = Tab1:AddHorizontalAlignment()
+			HA1:AddButton("Remote Spy", function()
+			    loadstring(game:HttpGet("https://pastebin.com/raw/bCghX33W", true))()
+			end)
+		    	local HA1 = Tab1:AddHorizontalAlignment()
+			HA1:AddButton("Gale Fighter", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/gale", true))()
+			end)
+		    	local HA1 = Tab1:AddHorizontalAlignment()
+			HA1:AddButton("Server Admin", function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/C9V5LJPS", true))()
+			    end)
 		local HA1 = Tab1:AddHorizontalAlignment()
 			HA1:AddButton("Dex", function()
 		local script = Instance.new'Script';
